@@ -1,0 +1,57 @@
+                                                    Alqorithm Suallar
+
+
+
+1)Verilmiş Arrayın ilk və son elementlərinin cəmini tapın
+
+2)Verilmiş müsbət tam n ədədinin 2-nin qüvvəti olub-olmamasını tapın
+
+3)Verilmiş n tam ədədinin neçə mərtəbəli olduğunu tapın. Məs: 23452, output: 5  
+ 
+4)Verilmiş artan sıra ilə düzülmüş ədədlər siyahısındaki n ədədinin yerləşdiryi indexi tapan alqoritm
+                          (meselen 50 axtaririq egər siyahıda 50 ədədi yoxdursa -1 print olsun, varsa var olduğu index)
+
+5)Verilmiş yazılar siyahısında verilmiş hərfdən neçə ədəd olduğunu tapan proqram.
+     Məs: "Hello World" -> 'l' -> 3 (Boyukdu kicikdi nezere alinmir)
+
+6)Verilmiş yazının əvvəlindəki boşluqlar silinmiş bir string düzəldən proqram 
+                          (Misalçün verilmiş yazı "   salam necesen?   "-dirsə yeni düzələcək string "salam necəsən?   " ) olmalıdır.
+
+7)Verilmiş 2 ədəd üzərində verilmiş simvola uyğun əməliyyat edən proqram. Simvol +,-,* və ya / olmalıdır, əks halda simvolu duzgun daxil etmesez cavab 0 olmalidir.
+                 (Misaçün simvol * olarsa verilmiş 2 ədəd vurulacaq və nəticəsi göstəriləcək)
+
+8)Verilmiş yazının içində A hərfinin olub olmadığını tapan proqram.
+
+9)Verilmiş ədədlər siyahısını içindəki bütün ədədlər kvadratına yüksəlmiş array-ə çevirən metod.  Mesel {1,2,3,4} --> {1,4,9,16}       // Bu suali hele kecmedik kecende yazariq
+
+10)Verilmiş yazıda neçə A hərfinin olduğunu tapan proqram.
+
+
+11)Verilmiş stringin Palindrome olub olmamağını yoxlayın.Eger soz palindromdursa mene 1 qaytarsin , palindrom deyilse 0 qaytarsin.
+
+
+
+12)Parametr olaraq 1 string dəyər qəbul edən və həmin string dəyəri icində bosluqlar qalmayacaq hala gətirən metod.
+       Misal olaraq, name = " Hikmet  Abbasov " deyə bir variable-mız varsa onu yaratdigimiz metoda göndərdikdə variable-daki dəyər "HikmətAbbasov" olmalıdır.
+
+
+
+
+
+13)Verilmiş strigin ilk 4 hərfini ekrana yazdırın.Eger soz 4 herfden az olsa mesaj cixartmalisan.
+
+
+14)Verilmiş yazının ilk hərfini böyük qalanlarını kiçik edib qaytaran metod 
+
+
+
+
+
+
+15)Verilmiş fullnamelər siyahısından name-lər siyahısı düzəldən metod
+                     (ad soyadlar siyahısındaki adları kəsib yeni bir arraye doldurub qaytarmalıdır)
+
+
+
+
+16)Fibonacci sequence (ardicilligi) algoritmi : 99-a qeder. 

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Pb-104_Alqorithms/1.0.0": {
+        "runtime": {
+          "Pb-104_Alqorithms.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pb-104_Alqorithms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\bin\Debug\net8.0\Pb-104_Alqorithms.exe
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\bin\Debug\net8.0\Pb-104_Alqorithms.deps.json
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\bin\Debug\net8.0\Pb-104_Alqorithms.runtimeconfig.json
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\bin\Debug\net8.0\Pb-104_Alqorithms.dll
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\bin\Debug\net8.0\Pb-104_Alqorithms.pdb
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\Pb-104_Alqorithms.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\Pb-104_Alqorithms.AssemblyInfoInputs.cache
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\Pb-104_Alqorithms.AssemblyInfo.cs
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\Pb-104_Alqorithms.csproj.CoreCompileInputs.cache
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\Pb-104_Alqorithms.dll
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\refint\Pb-104_Alqorithms.dll
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\Pb-104_Alqorithms.pdb
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\Pb-104_Alqorithms.genruntimeconfig.cache
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\ref\Pb-104_Alqorithms.dll
