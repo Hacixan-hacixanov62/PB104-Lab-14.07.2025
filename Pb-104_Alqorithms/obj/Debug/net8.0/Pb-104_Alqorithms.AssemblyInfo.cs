@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pb-104_Alqorithms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f0568ad7d2028378719f41a9a22a7924e2c4abd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pb-104_Alqorithms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pb-104_Alqorithms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

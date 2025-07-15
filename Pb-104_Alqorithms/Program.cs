@@ -470,7 +470,7 @@
 //    int b = 1;
 //    Console.Write(a + " " + b + " ");
 //    int sum = a + b;
-//    while(sum < t)
+//    while (sum < t)
 //    {
 //        Console.Write(sum + " ");
 //        a = b;
@@ -479,6 +479,245 @@
 //    }
 //}
 //Fibonacci(99);
+
+
+
+//================================================================================ 15.07.2025 =========================================
+
+
+//18)"Orfoqrafiya" sozunde her herfden nece dene oldugu cixsin.
+
+//void CountLettersInWord(string text)
+//{
+//    string checkedLetters = "";
+//    for (int i = 0; i < text.Length; i++)
+//    {
+//        char current = text[i];
+//        bool alreadyCheck = false;
+
+//        for (int j = 0; j < checkedLetters.Length; j++)
+//        {
+//            if (checkedLetters[j] == current)
+//            {
+//                alreadyCheck = true;
+//                break;
+//            }
+//        }
+
+//        if (!alreadyCheck)
+//        {
+
+//            int count = 0;
+
+//            for (int k = 0; k < text.Length; k++)
+//            {
+//                if (text[k] == current)
+//                {
+//                    count++;
+//                }
+
+//            }
+//            Console.WriteLine($"{current} herfi {count} dene var");
+//            checkedLetters += current;
+//        }
+//    }
+//}
+
+//string imput = "Salamlas";
+//CountLettersInWord(imput);
+
+
+
+
+
+//19)Verilmiş email dəyərinin domain hissəni qaytaran metod 
+//                     (test@code.edu.az email-i daxil edilsə code.edu.az hiss'sini qaytarmalıdır)
+
+
+//void FindDomainInEmail(string mail) 
+//{
+//    char domain = '@';
+//    int index = 0;
+
+//    for(int i = 0; i < mail.Length; i++)
+//    {
+//        if (mail[i] == domain)
+//        {
+//            index = i;
+//        }
+//    }
+
+//    for(int i = index+1; i < mail.Length; i++)
+//    {
+//        Console.Write(mail[i]);
+//    }
+
+
+//}
+//FindDomainInEmail("emil@code.edu.az");
+
+
+
+
+//20) Verilmiş tam ədədlərdən ibarət bir array verilir. Bu massivdəki yalnız müsbət ədədlər arasından:
+//         Rəqəmlərinin cəmi cüt olan ədədləri tap və onların cəmini hesabla (cutCem).
+//         Rəqəmlərinin cəmi tək olan ədədləri tap və onların cəmini hesabla (tekCem).
+
+//Misal : int[] arr = { 12, -7, 13, 28, 5, 30 };
+//12-- > 1 + 2 = 3(tek)-- > tekcem += 12
+//       13-- > 1 + 3 = 4(cut)-- > cutcem += 13
+//       28-- > 2 + 8 = 10(cut)-- > cutcem += 28
+//       5-- > 5(tek)-- > tekcem += 5
+
+//tekcem = 12 + 5 = 17
+
+
+//void EvenOrOdd(int[] arr)
+//{
+//    string oddNum = "Tek";
+//    string evenNum = "Cut";
+//    int sumEven = 0;
+//    int sumOdd = 0;
+//    int res = 0;
+
+//    for(int i = 0; i < arr.Length; i++)
+//    {
+//        if (arr[i] > 0)
+//        {
+//            int res2 = arr[i] / 10;
+//            int res3 = arr[i] % 10;
+//            res = res2 + res3;
+
+//            if (res % 2 == 0)
+//            {
+//                Console.WriteLine($"{res}  {evenNum}");
+//                sumEven += res;
+//            }
+//            else
+//            {
+//                Console.WriteLine($"{res}  {oddNum}");
+//                sumOdd += res;
+//            }
+
+
+//        }
+
+//    }
+
+//    Console.WriteLine($"Cut ededlerin cemi={sumEven}");
+//    Console.WriteLine($"Tek ededlerin cemi={sumOdd}");
+
+//}
+
+//EvenOrOdd([137]);
+
+
+
+//21)Parameter olaraq integer array variable-i ve bir integer value qebul eden ve hemin integer value-nu integer array-e yeni element kimi elave eden metod. 
+//   Misal üçün int[] nums = { 1,5,7}
+//deyə bir variable-mız var.yazdığımız metodu çağırıb arqument olaraq nums və 3 göndərsək nums 
+//                                                                                         arrayının dəyəri  {1,5,7,3} olmalıdır.
+
+
+//void AddedArray(int added, int[] arr)
+//{
+//    int[] nums = new int[arr.Length + 1];
+//    for (int i = 0; i < arr.Length; i++)
+//    {
+//        nums[i] = arr[i];
+//    }
+//    nums[nums.Length - 1] = added;
+//    Console.WriteLine(string.Join("," ,nums));
+//}
+//AddedArray(5, [1, 2, 3, 4]);
+
+
+
+//22)int tipindən bir array olur içində müsbət və mənfi ədədlər olur elə bir method yazın ki, bu array-i parametr olaraq qəbul etsin 
+//        və qəbul etdiyi array-in əvvəlcədən  ədədləri müsbətə çevirib 
+//                                                                                                    həmin array-i geriyə qaytarsın
+
+
+
+
+//void IsNegative(int[] numbers)
+//{
+//    for (int i = 0; i < numbers.Length; i++)
+//    {
+//        if (numbers[i] < 0)
+//        {
+//            numbers[i] = -numbers[i];
+//        }
+//        else
+//        {
+//            numbers[i] = numbers[i];
+//        }
+//    }
+//    Console.WriteLine(string.Join(",", numbers));
+//}
+//IsNegative([1, 2, -3, -4, 5, 6]);
+
+
+
+//24)Verilmis sozun ilk 2 ve son 2 herfinin beraberdirse outputda "beraber" deyilse "beraber deyil
+//     yazilsin uzunluqu 4 den azdirsa Console "someting went wrong" yazilsin;
+
+//Meselen: mexonicome-- > ilk iksi "me" son 2 si "me" beraberdirler:
+// me  xonico      me
+
+
+//void EqualOrNot(string word)
+//{
+//    if (word.Length<4)
+//    {
+//        Console.WriteLine("Something went wrong");
+//    }
+//    else
+//    {
+//        if (word[0] == word[word.Length-2] && word[1] == word[word.Length-1])
+//        {
+//            Console.WriteLine("beraber");
+//        }
+//        else
+//        {
+//            Console.WriteLine("beraber deyil");
+//        }
+//    }
+//}
+//EqualOrNot("mexanicome");
+
+
+//29)Arrayda en boyuk 5-e bolunen tek ededi tapin;
+
+//{ 5,12,17,19,23,25,30,20}
+//resoult->25
+
+//int NumberOfDivideFive(int[] array)
+//{
+//    int result = 0;
+//	for (int i = 0; i < array.Length; i++)
+//	{
+//		if (array[i] > result && array[i] %5==0&& array[i] % 2 == 1)
+//		{
+//			result = array[i];
+//		}
+//	}
+//	return result;
+//}
+
+//int[] array = { 5, 12, 17, 19, 23, 155, 30, 200 };
+//Console.WriteLine(NumberOfDivideFive(array));
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -12,3 +12,4 @@ D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\
 D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\Pb-104_Alqorithms.pdb
 D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\Pb-104_Alqorithms.genruntimeconfig.cache
 D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\ref\Pb-104_Alqorithms.dll
+D:\Mentor_Suallari\Alqorithms_Lab\Pb-104_Alqorithms\Pb-104_Alqorithms\obj\Debug\net8.0\Pb-104_Alqorithms.sourcelink.json
